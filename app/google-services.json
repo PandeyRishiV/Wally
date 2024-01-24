@@ -33,20 +33,42 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "254475954881-e9itplumfo4k3ebneehutdmk823rsc2k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254475954881:android:95d7fdaa137444b4420240",
+        "android_client_info": {
+          "package_name": "com.example.wally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254475954881-e9itplumfo4k3ebneehutdmk823rsc2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDauL1lssti_estV-laYVxNF3NU8xcZXw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254475954881-e9itplumfo4k3ebneehutdmk823rsc2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally;
 
 public class income {
     String key;

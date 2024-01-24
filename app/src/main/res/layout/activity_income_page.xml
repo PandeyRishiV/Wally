@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/expense_background"
-    tools:context=".mybud.income_page">
+    tools:context=".income_page">
 
     <include
         layout="@layout/toolbar"

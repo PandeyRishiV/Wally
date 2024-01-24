@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.mybud.R;
+import com.example.wally.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

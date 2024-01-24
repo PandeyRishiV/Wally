@@ -1,6 +1,4 @@
-package com.example.mybud.mybud;
-
-import java.util.ArrayList;
+package com.example.wally;
 
 public class incomelistview {
     public String category;

@@ -1,6 +1,4 @@
-package com.example.mybud.mybud;
-
-import android.util.Patterns;
+package com.example.wally;
 
 public class id {
     String email;

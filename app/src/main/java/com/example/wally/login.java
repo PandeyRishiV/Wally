@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -18,11 +18,12 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mybud.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Objects;
 
 public class login extends AppCompatActivity {
 
@@ -78,7 +79,7 @@ public class login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(empty()==true)
+                if(empty())
                 {
                     progress.setVisibility(View.VISIBLE);
                     mauth.signInWithEmailAndPassword(email.getText().toString().trim(),password.getText().toString())
@@ -89,7 +90,7 @@ public class login extends AppCompatActivity {
                                     {
                                         progress.setVisibility(View.INVISIBLE);
                                         Toast.makeText(login.this, "WELCOME", Toast.LENGTH_SHORT).show();
-                                        Intent main_intent=new Intent(login.this,mainpage.class);
+                                        Intent main_intent=new Intent(login.this, mainpage.class);
                                         main_intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
                                         startActivity(main_intent);
                                         finishAffinity();
@@ -97,7 +98,7 @@ public class login extends AppCompatActivity {
                                     else
                                     {
                                         progress.setVisibility(View.INVISIBLE);
-                                        Toast.makeText(login.this, task.getException().getMessage()+"", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(login.this, Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
                                     }
                                 }
                             });

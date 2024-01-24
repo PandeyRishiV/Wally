@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyBud</string>
+    <string name="app_name">Wally</string>
 
     <!-- Strings related to login -->
     <string-array name="itemlist">

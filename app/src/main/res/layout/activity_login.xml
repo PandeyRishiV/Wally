@@ -5,7 +5,7 @@
     android:background="@drawable/popup_border"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mybud.login">
+    tools:context=".login">
 
 
     <EditText

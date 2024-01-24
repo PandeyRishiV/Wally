@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally;
 
 import android.content.Intent;
 import android.graphics.Paint;
@@ -12,7 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mybud.R;
+import com.example.wally.R;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
         //Initialize Database and enable loading screen animation
         mauth=FirebaseAuth.getInstance();
-        bg=(TextView)findViewById(R.id.bg);
         login=(Button)findViewById(R.id.login);
         summ=(TextView)findViewById(R.id.summ);
         register=(Button)findViewById(R.id.register);

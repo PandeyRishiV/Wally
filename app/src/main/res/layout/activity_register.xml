@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/popup_border"
-    tools:context=".mybud.register">
+    tools:context=".wally.register">
 
     <EditText
         android:id="@+id/name"
@@ -85,7 +85,8 @@
         android:layout_alignTop="@+id/password"
         android:layout_toEndOf="@+id/name"
         android:backgroundTint="@color/colorPrimary"
-        app:srcCompat="@drawable/eye" />
+        app:srcCompat="@drawable/eye"
+        android:contentDescription="Show password" />
 
     <ProgressBar
         android:id="@+id/progress"

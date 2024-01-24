@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.example.mybud"
+    namespace = "com.example.wally"
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.example.dikshapandey.mybud"
+        applicationId "com.example.wally"
         minSdkVersion 22
         targetSdkVersion 33
         versionCode 1

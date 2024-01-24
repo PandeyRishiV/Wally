@@ -8,8 +8,8 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.dikshapandey.mybud" />
-                  <option name="mobileSdkAppId" value="1:254475954881:android:aa7af4dcec9bd4d0" />
+                  <option name="appId" value="com.example.wally" />
+                  <option name="mobileSdkAppId" value="1:254475954881:android:95d7fdaa137444b4420240" />
                   <option name="projectId" value="mybud-84516" />
                   <option name="projectNumber" value="254475954881" />
                 </ConnectionSetting>

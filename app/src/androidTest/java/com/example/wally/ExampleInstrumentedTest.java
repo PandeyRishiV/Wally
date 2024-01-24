@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally.wally;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

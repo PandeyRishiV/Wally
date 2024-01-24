@@ -1,4 +1,4 @@
-package com.example.mybud.mybud;
+package com.example.wally;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.mybud.R;
+import com.example.wally.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class mainpage extends AppCompatActivity {
@@ -60,7 +60,7 @@ public class mainpage extends AppCompatActivity {
 
         next.setVisibility(View.INVISIBLE);
         previous.setVisibility(View.INVISIBLE);
-        selected_date.setText("MyBud");
+        selected_date.setText(R.string.app_name);
 
         //Set Toolbar as actionbar
         setSupportActionBar(toolbar);

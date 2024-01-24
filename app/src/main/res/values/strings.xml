@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyBud</string>
+
+    <!-- Strings related to login -->
+    <string-array name="itemlist">
+        <item>Student</item>
+        <item>Job</item>
+        <item>Business</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_spin">
+        <item>  </item>
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Family</item>
+        <item>Friend</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type_spinner">
+        <item>  </item>
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Tax</item>
+        <item>Shopping</item>
+        <item>Bill</item>
+        <item>Other</item>
+    </string-array>
+</resources>

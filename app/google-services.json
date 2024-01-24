@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "254475954881",
+    "firebase_url": "https://mybud-84516.firebaseio.com",
+    "project_id": "mybud-84516",
+    "storage_bucket": "mybud-84516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254475954881:android:aa7af4dcec9bd4d0",
+        "android_client_info": {
+          "package_name": "com.example.dikshapandey.mybud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254475954881-0mbckmc06kp8vmlvo9i3bje8frp7jlvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dikshapandey.mybud",
+            "certificate_hash": "d5975871ded4914d427b9f3214ba46ca8c876449"
+          }
+        },
+        {
+          "client_id": "254475954881-e9itplumfo4k3ebneehutdmk823rsc2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDauL1lssti_estV-laYVxNF3NU8xcZXw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254475954881-e9itplumfo4k3ebneehutdmk823rsc2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
